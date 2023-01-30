@@ -1,6 +1,5 @@
 --FECHA - PLACA - S/.CONTADO - S/.CREDITO - S/.TOTAL - NRO_PACKING 
 --Me agrupa los nros_packing y me arroba en dos columnas el total de documentos contado y credito.
-
 SELECT fecha,
   placa,
   nvl(sum(contado), 0) contado,

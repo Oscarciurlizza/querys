@@ -1,5 +1,4 @@
 --Me agrupa por canal (MAYORISTA) su venta en soles en un rango de fechas.
-
 SELECT DISTINCT compañia,
   vendedor,
   nvl(sum(total_soles), 0) total_soles,

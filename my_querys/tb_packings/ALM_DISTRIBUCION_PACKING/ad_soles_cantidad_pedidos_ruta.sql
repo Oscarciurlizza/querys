@@ -1,5 +1,4 @@
 --Me agrupa por ruta la cantidad de pedidos y el total en soles que tuvo.
-
 SELECT DISTINCT compañia,
   almacen,
   sede,
